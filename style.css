@@ -28,7 +28,7 @@ p {
     color: hsla(0, 0%, 100%, 0.75);
 }
 
-button {
+.button {
     background: hsl(0, 0%, 95%);
     margin-top: 60px;
     padding: 8px 20px;
@@ -36,19 +36,19 @@ button {
     border: 2px solid hsl(0, 0%, 95%);
 }
 
-button:focus {
+.button:focus {
     outline: 0;
 }
 
 
-button:hover {
+.button:hover {
     border: 2px solid hsl(0, 0%, 95%);
     color:hsl(0, 0%, 95%);
     background: none;
     cursor: pointer;
 }
 
-button:active {
+.button:active {
     border: 1.6px solid hsl(0, 0%, 95%);
 }
 
