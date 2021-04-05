@@ -28,7 +28,12 @@ p {
     color: hsla(0, 0%, 100%, 0.75);
 }
 
+a, a:visited {
+    text-decoration: none;
+}
+
 .button {
+    display: inline-block;
     background: hsl(0, 0%, 95%);
     margin-top: 60px;
     padding: 8px 20px;
@@ -73,16 +78,28 @@ p {
     color: white;
 }
 
+.wrapper .card:first-child .button {
+    color: hsl(31, 77%, 52%);
+}
+
 .wrapper .card:nth-child(2) {
     background: hsl(184, 100%, 22%);
     color: white;
 }
+
+.wrapper .card:nth-child(2) .button {
+    color: hsl(184, 100%, 22%);
+}
+
 .wrapper .card:last-child {
     background: hsl(179, 100%, 13%);
     color: white;
 }
 
 
+.wrapper .card:last-child .button {
+    color: hsl(179, 100%, 13%);
+}
 
 
 
