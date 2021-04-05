@@ -1,0 +1,94 @@
+* {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: "Big Shoulders Display";
+    color: hsl(0, 0%, 95%);
+    margin: 40px 0;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+    background: hsl(0, 0%, 95%);
+    margin-top: 90px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+button:focus {
+    outline: 0;
+}
+
+
+button:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    color:hsl(0, 0%, 95%);
+    background: none;
+    cursor: pointer;
+}
+
+button:active {
+    border: 1.6px solid hsl(0, 0%, 95%);
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 978px;
+    border-radius: 5px;
+    overflow: hidden;
+    user-select: none;
+}
+
+.wrapper .card {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 326px;
+    padding: 40px;
+}
+
+.wrapper .card:first-child {
+    background: hsl(31, 77%, 52%);
+    color: white;
+}
+
+.wrapper .card:nth-child(2) {
+    background: hsl(184, 100%, 22%);
+    color: white;
+}
+.wrapper .card:last-child {
+    background: hsl(179, 100%, 13%);
+    color: white;
+}
+
+
+
+
+
+
+@media (max-width: 978px) {
+    .wrapper {
+        width: 326px;
+    }
+}
