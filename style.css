@@ -8,20 +8,20 @@ body {
     background: hsl(0, 0%, 95%);
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    min-width: 100vw;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 50px 0;
 }
 
 h2 {
     text-transform: uppercase;
-    font-size: 48px;
+    font-size: 40px;
     font-family: "Big Shoulders Display";
     color: hsl(0, 0%, 95%);
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 p {
@@ -30,7 +30,7 @@ p {
 
 button {
     background: hsl(0, 0%, 95%);
-    margin-top: 90px;
+    margin-top: 60px;
     padding: 8px 20px;
     border-radius: 20px;
     border: 2px solid hsl(0, 0%, 95%);
